@@ -1,0 +1,18 @@
+.main-first {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 375px;
+  background-color: white;
+  padding: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main-first {
+    gap: 30px;
+    width: 800px;
+    padding: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+.main-second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 375px;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main-second {
+    gap: 30px;
+    width: 400px;
+    padding: 40px;
+    border-bottom-left-radius: 8px;
+  }
+}
